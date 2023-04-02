@@ -99,8 +99,10 @@
 @media screen and (min-width: 300px) and (max-width: 748px) {
  .booking{
     flex-wrap: wrap;
+    gap: 10px;
  }
  .booking-card{
     flex-wrap: wrap;
+    gap: 10px;
  }
 }
