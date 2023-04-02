@@ -1,0 +1,49 @@
+.team {
+    width: 100%;
+}
+
+.members {
+    width: 80%;
+    margin: auto;
+
+}
+
+.members h1 {
+    text-align: center;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    box-shadow: 1px 1px 30px 1px rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card p {
+    text-align: justify;
+    color: gray;
+}
+
+.card a {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (min-width: 300px) and (max-width: 748px) {
+    .team-cards {
+        flex-wrap: wrap;
+    }
+}
