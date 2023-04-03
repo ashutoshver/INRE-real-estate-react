@@ -1,0 +1,56 @@
+.form {
+    width: 100%;
+}
+
+.form-flex {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.input-form {
+    width: 100%;
+    text-align: justify;
+}
+
+.input-form h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.input-form p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.input-form label {
+    color: gray;
+    margin-right: 10px;
+}
+
+.input-form input {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.input-form button{
+    background: midnightblue;
+    padding: 15px 90px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.form-img img {
+    width: 90%;
+}

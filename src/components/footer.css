@@ -1,0 +1,52 @@
+.footer{
+    width: 100%;
+    background-color: rgba(12, 12, 87, 0.959);
+    color: white;
+}
+.footer-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icon .icon{
+    font-size: 40px;
+}
+.social-contact{
+    text-align: start;
+}
+
+.useful-link p{
+    font-size: 20px;
+}
+.company-list p{
+    font-size: 20px;
+}
+.icon-content{
+    display: flex;
+    flex-direction: column;
+}
+.icon-content h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.icon-content p{
+    margin-top: -10px;
+}
+.phone{
+    margin-right: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 748px){
+    .footer-container{
+        flex-wrap: wrap;
+    }
+}

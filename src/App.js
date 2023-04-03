@@ -1,5 +1,7 @@
 import React from "react";
 import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
+import Form from "./components/Form";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Offering from "./components/Offering";
@@ -14,6 +16,8 @@ function App() {
       <Offering />
       <Team />
       <Blogs />
+      <Form />
+      <Footer />
     </>
   );
 }
