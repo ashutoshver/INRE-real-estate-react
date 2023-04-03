@@ -2,13 +2,14 @@
     width: 100%;
     background-color: rgba(12, 12, 87, 0.959);
     color: white;
+    padding: 20px 0;
 }
 .footer-container{
     width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 60px 0;
+    
 }
 
 .social-icon{
@@ -44,9 +45,31 @@
 .phone{
     margin-right: 50px;
 }
+.copyright-section{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.copy-social{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+
 
 @media screen and (min-width: 300px) and (max-width: 748px){
     .footer-container{
+        flex-wrap: wrap;
+    }
+
+    .copyright-sectio{
         flex-wrap: wrap;
     }
 }

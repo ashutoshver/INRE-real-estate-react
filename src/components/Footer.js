@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import {FaEnvelope , FaPhoneVolume} from 'react-icons/fa';
+import {FaEnvelope , FaFacebookF, FaInstagram, FaLinkedinIn, FaPhoneVolume, FaTwitter} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -42,7 +42,19 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+           
         </div>
+        <div className='copyright-section'>
+                <div className='copyright'>
+                    <p>Copyright 2023. Designed by INRE Global</p>
+                </div>
+                <div className='copy-social'>
+                    <p><span><FaLinkedinIn /> </span>Linkdin</p>
+                    <p><span><FaFacebookF /> </span>Linkdin</p>
+                    <p><span><FaTwitter /> </span>Linkdin</p>
+                    <p><span><FaInstagram /> </span>Linkdin</p>
+                </div>
+            </div>
     </div>
   )
 }
