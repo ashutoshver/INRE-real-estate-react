@@ -54,3 +54,9 @@
 .form-img img {
     width: 90%;
 }
+
+@media screen and (min-width: 300px) and (max-width: 748px){
+    .form-flex{
+        flex-wrap: wrap;
+    }
+}
